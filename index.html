@@ -11,6 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/afff5cb2aa.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -22,10 +23,18 @@
             <li class="nav-item mr-2 d-block d-sm-none"><a href="/login" class="nav-link">Sign In / Sign Up</a></li>
         </ul>
         <div class="d-none d-md-block">
-            <span class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door! </i><a href="/login">Sign In / Sign Up</a></span>
+            <span class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door! </i><a href="/login">Sign In
+                    / Sign Up</a></span>
         </div>
     </nav>
-    <article>
+    <article class="container mt-3">
+        <div class="row d-none d-sm-block">
+            <div class="col-12">
+                <div class="alert alert-warning">
+                    <strong>Sale Now On!</strong> We've got a sale on. Get a 12-month subscription for the price of 6! <a href="">See here for details!</a>
+                </div>
+            </div>
+        </div>
         <!-- Callout -->
         <div class="row">
             <div class="col-12">
@@ -53,18 +62,36 @@
             </div>
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <blockquote class="blockquote">
-                        <p>I've been introduced to more than 10 great interational award winning whiskeys I never knew
-                            about.
-                        </p>
-                        <p>- Jane Doe</p>
-                    </blockquote>
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                            <img src="/media/images/woman-drinking-whiskey.png"
+                                alt="picture of a woman drinking whiskey" class="rounded-circle mr-3" height="100"
+                                width="100">
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>I've been introduced to more than 10 great interational award winning whiskeys I
+                                    never knew about.
+                                </p>
+                                <p>- Jane Doe</p>
+                            </blockquote>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-12 col-md-6">
-                    <blockquote class="blockquote">
-                        <p>I haven't been sober for months!</p>
-                        <p>- Jane Doe</p>
-                    </blockquote>
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                            <img src="/media/images/woman-drinking-whiskey.png"
+                                alt="picture of a woman drinking whiskey" class="rounded-circle mr-3" height="100"
+                                width="100">
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>I haven't been sober for months!</p>
+                                <p>- Jane Doe</p>
+                            </blockquote>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -81,7 +108,7 @@
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
-                        <h3>Feature 1</h3>
+                        <h3><i class="fas fa-gift d-none d-sm-inline"></i> Feature 1 <span class="badge bg-success">NEW!</span></h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in facilisis sem, volutpat
                             eleifend
                             eros. Morbi egestas pretium ligula, non scelerisque elit pulvinar eu. Nunc imperdiet ut
@@ -101,7 +128,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
-                        <h3>Feature 2</h3>
+                        <h3><i class="fas fa-credit-card d-none d-sm-inline"></i> Feature 2</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in facilisis sem, volutpat
                             eleifend
                             eros. Morbi egestas pretium ligula, non scelerisque elit pulvinar eu. Nunc imperdiet ut
@@ -121,7 +148,7 @@
                 </div>
                 <div class="col-12 d-md-none d-lg-block col-lg-4">
                     <div class="feature">
-                        <h3>Feature 3</h3>
+                        <h3><i class="fas fa-window-close d-none d-sm-inline"></i> Feature 3</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in facilisis sem, volutpat
                             eleifend
                             eros. Morbi egestas pretium ligula, non scelerisque elit pulvinar eu. Nunc imperdiet ut
